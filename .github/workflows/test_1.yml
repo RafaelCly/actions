@@ -1,11 +1,11 @@
-name: Hola mundo // Nombre del flujo de trabajo
+name: Hola mundo 
 
-on: [push] // Dispara el flujo de trabajo en cada push
+on: [push] 
 
 jobs:
-  hola: // Define un trabajo llamado "hola"
-    runs-on: ubuntu-latest // Usa la última versión de Ubuntu
+  hola: 
+    runs-on: ubuntu-latest 
 
     steps:
-    - name: Hola Mundo // Nombre del paso
-      run: echo "Hola Mundo" // Comando para imprimir "Hola Mundo" en la consola
+    - name: Hola Mundo 
+      run: echo "Hola Mundo" 
